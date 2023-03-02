@@ -19,14 +19,13 @@ const App = () => {
           src="https://www.ffwd.org/wp-content/uploads/Hello-World-logo.png"
           alt="Hello World Logo"
         />
-        <h1>Hello World React App</h1>
-        <h3>By Leila</h3>
+        <h3>Hi, This is Leila!</h3>
         <img
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyNkMhkndnGruIMGqdFsSm_0r2ZqFA0_-g_g&usqp=CAU"
           alt="sun"
           className="sun-logo"
         />
-        <h2>Do you like my simple Application?</h2>
+        <h2>Do you like my Hello World React App?</h2>
       </section>
       <button className="App-btn" onClick={alertWhenClicked} >YES</button>
     </div>
