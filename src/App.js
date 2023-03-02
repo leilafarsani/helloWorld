@@ -26,8 +26,10 @@ const App = () => {
           className="sun-logo"
         />
         <h2>Do you like my Hello World React App?</h2>
+        <button className="App-btn" onClick={alertWhenClicked}>
+          YES
+        </button>
       </section>
-      <button className="App-btn" onClick={alertWhenClicked} >YES</button>
     </div>
   );
 };

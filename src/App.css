@@ -17,7 +17,8 @@
 }
 .sun-logo{ 
   height: 300px;
-  margin-left: 471px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   align-items: center;
 }
@@ -31,12 +32,11 @@
   color: rgb(17, 99, 207);
   font-weight: bold;
   font-size: calc(3px + 2vmin);
-  margin-left: 571px;
+  margin-right: auto;
+  margin-left: auto;
   cursor: pointer;
 }
-.App-btn :hover{
-  background-color: rgb(125, 217, 217);
-}
+
 
 @keyframes App-logo-spin {
   from {
